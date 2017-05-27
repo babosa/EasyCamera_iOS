@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EasyDarwinInfoViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVo-uE-P8R">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EasyCammera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB3-pi-AzW">
+                            <rect key="frame" x="11" y="33" width="154" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRQ-CW-51p">
+                            <rect key="frame" x="325" y="26" width="46" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="4AH-el-rCv"/>
+                                <constraint firstAttribute="height" constant="35" id="bNW-M9-A8d"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="关闭"/>
+                            <connections>
+                                <action selector="close:" destination="-1" eventType="touchUpInside" id="4rl-qr-8a8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2287881076335907" green="0.65713584423065186" blue="0.92360872030258179" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstItem="fRQ-CW-51p" firstAttribute="top" secondItem="tVo-uE-P8R" secondAttribute="top" constant="26" id="HPT-m0-14v"/>
+                        <constraint firstAttribute="trailing" secondItem="fRQ-CW-51p" secondAttribute="trailing" constant="4" id="TTY-mp-dzK"/>
+                        <constraint firstAttribute="height" constant="64" id="ZiC-nC-kqg"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plW-d6-vHK">
+                    <rect key="frame" x="8" y="74" width="359" height="134"/>
+                    <attributedString key="attributedText">
+                        <fragment content="云平台组件：">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCamera">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="云摄像机方案,支持云直播、云控制、云录像、云回放的摄像机方案！">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCamera">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保持与">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCMS">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="长连接，注册在">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCMS">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="上。当有">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyClient">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="客户端发出视频播放、云台控制、语音喊话等指令时，">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCMS">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="会将相应的指令转发给对应的">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCamera">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="设备，">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="EasyCamera">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" metaFont="system" size="16"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="根据指令办事。EasyClient下载的地址:">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © www.EasyDarwin.org 2012-2017 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypk-z9-iFu">
+                    <rect key="frame" x="34" y="626" width="307" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="18s-yc-0fj"/>
+                        <constraint firstAttribute="width" constant="307" id="aza-Fr-F0S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EasyClient_iOS_appStore" translatesAutoresizingMaskIntoConstraints="NO" id="1NN-hj-DG6">
+                    <rect key="frame" x="97" y="248" width="180" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="2l5-3A-Ddp"/>
+                        <constraint firstAttribute="width" constant="180" id="Q4i-Hs-uHC"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRB-FY-SYr">
+                    <rect key="frame" x="8" y="210" width="122" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="122" id="3F2-Gr-tV0"/>
+                        <constraint firstAttribute="height" constant="30" id="Ucz-IO-TRr"/>
+                    </constraints>
+                    <state key="normal" title="点击下载"/>
+                    <connections>
+                        <action selector="gotoShop:" destination="-1" eventType="touchUpInside" id="JPG-GF-lyf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tVo-uE-P8R" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4L2-0i-LmG"/>
+                <constraint firstItem="tVo-uE-P8R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6nE-NY-wPe"/>
+                <constraint firstAttribute="trailing" secondItem="plW-d6-vHK" secondAttribute="trailing" constant="8" id="Acf-Jj-ucy"/>
+                <constraint firstAttribute="trailing" secondItem="tVo-uE-P8R" secondAttribute="trailing" id="CXN-r7-oDe"/>
+                <constraint firstItem="yRB-FY-SYr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="M8o-Fm-Lra"/>
+                <constraint firstItem="1NN-hj-DG6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N2v-O2-80k"/>
+                <constraint firstItem="Ypk-z9-iFu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Qcx-hh-F6A"/>
+                <constraint firstItem="plW-d6-vHK" firstAttribute="top" secondItem="tVo-uE-P8R" secondAttribute="bottom" constant="10" id="iTi-rX-YBr"/>
+                <constraint firstItem="yRB-FY-SYr" firstAttribute="top" secondItem="plW-d6-vHK" secondAttribute="bottom" constant="2" id="p94-wF-m5m"/>
+                <constraint firstAttribute="bottom" secondItem="Ypk-z9-iFu" secondAttribute="bottom" constant="20" id="pRC-TD-aPz"/>
+                <constraint firstItem="plW-d6-vHK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="q29-dc-FJc"/>
+                <constraint firstItem="1NN-hj-DG6" firstAttribute="top" secondItem="plW-d6-vHK" secondAttribute="bottom" constant="40" id="vIB-Ph-YqF"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EasyClient_iOS_appStore" width="280" height="280"/>
+    </resources>
+</document>
